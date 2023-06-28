@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!-- Mirrored from negociopensado.com.br/gestorsus/gestorsus-aula-31-01/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 May 2022 13:44:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+		<title>GestorSus &#8211; Aula 31 &#8211; 01 &#8211; Gestor Sus</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Gestor Sus &raquo;" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Gestor Sus &raquo;" href="comments/feed/index.html" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/negociopensado.com.br\/gestorsus\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min7404.css?ver=5.9.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='h5p-plugin-styles-css'  href='wp-content/plugins/h5p/h5p-php-library/styles/h5p84c3.css?ver=1.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mycred-front-css'  href='wp-content/plugins/mycred/assets/css/mycred-frontdc8c.css?ver=2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mycred-social-share-icons-css'  href='wp-content/plugins/mycred/assets/css/mycred-social-iconsdc8c.css?ver=2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mycred-social-share-style-css'  href='wp-content/plugins/mycred/assets/css/mycred-social-sharedc8c.css?ver=2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb683.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='wp-content/plugins/elementor/assets/css/frontend.min3d36.css?ver=3.3.1' type='text/css' media='all' />
+<style id='elementor-frontend-inline-css' type='text/css'>
+@font-face{font-family:eicons;src:url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons0b93.eot?5.10.0);src:url(http://negociopensado.com.br/gestorsus/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(http://negociopensado.com.br/gestorsus/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(http://negociopensado.com.br/gestorsus/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(http://negociopensado.com.br/gestorsus/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(http://negociopensado.com.br/gestorsus/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}
+</style>
+<link rel='stylesheet' id='elementor-post-5-css'  href='wp-content/uploads/elementor/css/post-53943.css?ver=1635444399' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='wp-content/plugins/elementor-pro/assets/css/frontend.min3d36.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min4f24.css?ver=4.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min4a41.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='premium-pro-css'  href='wp-content/plugins/premium-addons-pro/assets/frontend/min-css/premium-addons.min77e6.css?ver=2.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='wp-content/uploads/elementor/css/global9cce.css?ver=1628515475' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-23212-css'  href='wp-content/uploads/elementor/css/post-232121c0a.css?ver=1652799368' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-lightgallery-transitions-css'  href='wp-content/themes/rife-free/js/light-gallery/css/lg-transitions.min8162.css?ver=1.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-lightgallery-css'  href='wp-content/themes/rife-free/js/light-gallery/css/lightgallery.min8162.css?ver=1.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='a13-icomoon-css'  href='wp-content/themes/rife-free/css/icomoon18f6.css?ver=2.4.12' type='text/css' media='all' />
+<link rel='stylesheet' id='a13-main-style-css'  href='wp-content/themes/rife-free/style18f6.css?ver=2.4.12' type='text/css' media='all' />
+<link rel='stylesheet' id='a13-user-css-css'  href='wp-content/uploads/apollo13_framework_files/css/user15ef.css?ver=2.4.12_1628692348' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Titillium+Web%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlayfair+Display%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTeko%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTrispace%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.9.3' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.minaf6c.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='wp-content/plugins/mycred/addons/badges/assets/js/front4e44.js?ver=1.3' id='mycred-badge-front-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min4a41.js?ver=4.8.2' id='font-awesome-4-shim-js'></script>
+<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/23212.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.9.3" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index86b5.html?p=23212' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed44b1.json?url=http%3A%2F%2Fnegociopensado.com.br%2Fgestorsus%2Fgestorsus-aula-31-01%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed4b25?url=http%3A%2F%2Fnegociopensado.com.br%2Fgestorsus%2Fgestorsus-aula-31-01%2F&amp;format=xml" />
+<!-- start Simple Custom CSS and JS -->
+<script type="text/javascript">
+window.onload = function() {
+
+  // Set the initial score to zero...
+  var score = 0;
+  // Create an array with the answers in the correct order...
+  var answers = [
+    "os modelos de entendimento do usuário.",
+    "suporte na medida certa; uma medida que não torna a pessoa dependente, e nem gera, no profissional, uma sobrecarga.",
+    "o usuário e suas queixas emocionais como legítimas.",
+    "de escutar o que o usuário precisa dizer.",
+    "a habilidade da empatia.",
+    "boa comunicação.",
+    "um momento para pensar/refletir.",
+    ",criando a relação de vínculo com o usuário."
+    
+
+  ];
+  // Get the intial state of the table, so it can be reset...
+
+
+  // Enable drag and drop...
+  function dragAndDrop(dragTarget, dropTarget) {
+    // Enable draggable events...
+    jQuery(dragTarget).draggable({ revert: true });
+
+    // Enable the droppable events...
+    jQuery(dropTarget).droppable({
+      drop: function(event, ui) {
+        // Append the dropped item into its drop target...
+        jQuery(this).append(ui.draggable);
+        // Place the drag target in the normal document flow...
+        ui.draggable.css({
+          position: "static",
+          top: "auto",
+          left: "auto"
+        });
+        // jQuery UI requires the draggable element to have position: relative...
+        ui.draggable.css({
+          position: "relative"
+        });
+      }
+    });
+  }
+  // Enable drag and drop in both directions...
+  dragAndDrop(".card", ".answer");
+  dragAndDrop(".card", ".option");
+
+  // When the check answers button is clicked...
+  jQuery(".check-answer").on("click", function() {
+    
+    // Check the guess against each answer in the answers array, and increment the score if they match...
+    jQuery(".answer").each(function(i) {
+      
+      // Get the correct answer for the current row...
+      var answer = answers[i];
+      // Get the user's guess...
+      var guess = jQuery(this).find("div").text();
+      // Compare the user's guess to the correct answer...
+      if (guess === answer) {
+        // They were correct - increment the score!
+        score++;
+        // Correct answer gets a green background...
+        jQuery(this).css("background", "#2ecc71");
+      } else {
+        // Incorrect answers get a red background...
+        jQuery(this).css("background", "#e74c3c");
+      }
+    });
+    // Display the score...
+    jQuery(".score-card").html("<p>Score: " + score + "/8</p>");
+
+    // Swap the "check answers" and "reset" buttons...
+    jQuery(".reset-btn").css("display", "flex");
+    jQuery(".check-answer").css("display", "none");
+  }); // END $(".check-answer").on("click", function({...}));
+
+  // When the reset button is clicked...
+  jQuery(".reset-btn").on("click", function() {
+    
+    // Reset the question table...
+    jQuery(".table").html(tableDefault);
+    
+    // Re-enable the drag and drops...
+    dragAndDrop(".card", ".answer");
+    dragAndDrop(".card", ".option");
+
+    // Swap the "check answers" and "reset" buttons...
+    jQuery(".reset-btn").css("display", "none");
+    jQuery(".check-answer").css("display", "flex");
+
+    // Hide the score...
+    jQuery(".score-card").html("");
+
+    // Reset the score to zero...
+    score = 0;
+  }); // END $(".reset-btn").on("click", function() {...});
+}; // END $(document).ready(function() {...});
+
+
+</script>
+<!-- end Simple Custom CSS and JS -->
+<script type="text/javascript">
+// <![CDATA[
+(function(){
+    var docElement = document.documentElement,
+        className = docElement.className;
+    // Change `no-js` to `js`
+    var reJS = new RegExp('(^|\\s)no-js( |\\s|$)');
+    //space as literal in second capturing group cause there is strange situation when \s is not catched on load when other plugins add their own classes
+    className = className.replace(reJS, '$1js$2');
+    docElement.className = className;
+})();
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+WebFontConfig = {
+    google: {"families":["Open Sans","Open Sans"]},
+    active: function () {
+        //tell listeners that fonts are loaded
+        if (window.jQuery) {
+            jQuery(document.body).trigger('webfontsloaded');
+        }
+    }
+};
+(function (d) {
+    var wf = d.createElement('script'), s = d.scripts[0];
+    wf.src = 'wp-content/themes/rife-free/js/webfontloader.min.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    s.parentNode.insertBefore(wf, s);
+})(document);
+// ]]>
+</script>		<style type="text/css" id="wp-custom-css">
+			.slick-disabled{
+	display:none!important;
+}
+
+		</style>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
+<body class="page-template page-template-elementor_canvas page page-id-23212 header-horizontal site-layout-full elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-23212">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>		<div data-elementor-type="wp-page" data-elementor-id="23212" class="elementor elementor-23212" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-4932c0e0 elementor-section-height-full elementor-hidden-tablet elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="4932c0e0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0765499" data-id="0765499" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-72e18f5 elementor-widget elementor-widget-heading" data-id="72e18f5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">AULA 31</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d43ad94 elementor-widget elementor-widget-heading" data-id="d43ad94" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Governança <br>na saúde</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6cc30c4 elementor-invisible" data-id="6cc30c4" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0cd5ede elementor-align-right elementor-fixed elementor-invisible elementor-widget elementor-widget-button" data-id="0cd5ede" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;fixed&quot;,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:2000}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="gestorsus-aula-31-02/index.html" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">INICIAR</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1257a39 elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1257a39" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5968ee2" data-id="5968ee2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0f2f58e elementor-widget elementor-widget-heading" data-id="0f2f58e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">AULA 31</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a26763d elementor-widget elementor-widget-heading" data-id="a26763d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Governança na saúde</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-96d6224 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="96d6224" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-51700f7 elementor-invisible" data-id="51700f7" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-dfaab37 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dfaab37" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-551125c" data-id="551125c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2e9de3d elementor-widget elementor-widget-image" data-id="2e9de3d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="796" src="wp-content/uploads/2022/05/Sem-titulo-2-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b1b4ec2" data-id="b1b4ec2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-93ff2de elementor-widget elementor-widget-text-editor" data-id="93ff2de" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>Bem vindo(a) de volta! Parabéns, você chegou na última aula do Curso Ser Gestor SUS!</b></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-7309d9e elementor-widget elementor-widget-text-editor" data-id="7309d9e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Você sabe como fortalecer a capacidade governativa (formulação, decisão e execução) no SUS?</p><p>Fique sossegado(a), pois nesta aula você vai ver aprender sobre a governança em redes como processo de coordenação das interações interorganizacionais. Vai conhecer as proposições analíticas e o campo dos estudos da gestão em saúde. E vai conferir uma análise das redes organizacionais, considerando o federalismo nas regiões de saúde do Brasil em sua dimensão política. Além de compreender a lógica do poder no processo de constituição e funcionamento das organizações em rede.</p><p>Temos certeza de que este aprendizado fará uma grande diferença na sua prática profissional!</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d097172 elementor-widget elementor-widget-text-editor" data-id="d097172" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>A seguir, você vai conhecer os <b>objetivos </b>desta aula interativa! </p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ad1bc16 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ad1bc16" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6aa2b35 elementor-invisible" data-id="6aa2b35" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-175c0bf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="175c0bf" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1a0a1ac" data-id="1a0a1ac" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3daba61 elementor-widget elementor-widget-text-editor" data-id="3daba61" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>Ao final desta aula, você será capaz de:</b></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-88d8de0 elementor-widget elementor-widget-text-editor" data-id="88d8de0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<ul><li aria-level="1">Compreender as regras e normativas da governança pública respondendo ao controle interno e externo;</li><li aria-level="1">Perceber a importância da governança pela legitimação social do Sistema de Saúde e seus resultados;</li><li aria-level="1">Compreender a governança como ação participativa.</li></ul>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3f40d78" data-id="3f40d78" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b3b1fc5 elementor-widget elementor-widget-image" data-id="b3b1fc5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="790" height="790" src="wp-content/uploads/2022/05/Sem-titulo-3-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 790px) 100vw, 790px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d9c555e elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d9c555e" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d831cde elementor-invisible" data-id="d831cde" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c8352cf elementor-widget elementor-widget-text-editor" data-id="c8352cf" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>Conheça o roteiro para esta aula:</b></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d9ca2b1 elementor-widget elementor-widget-image" data-id="d9ca2b1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="701" height="1242" src="wp-content/uploads/2022/05/AS1DS45ADAS854.png" class="attachment-full size-full" alt="" loading="lazy" wp-content/ sizes="(max-width: 701px) 100vw, 701px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2d467c8 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2d467c8" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-78d46f7 elementor-invisible" data-id="78d46f7" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-02493a3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="02493a3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c2f6146" data-id="c2f6146" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-15f4ede elementor-widget elementor-widget-text-editor" data-id="15f4ede" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>O uso do termo “<b>Governança</b><b>”</b> apresenta sentidos distintos ao longo do tempo. Nas duas últimas décadas, pesquisas sobre a governança como estratégia para superar contradições nos modos de formulação de políticas e de gestão de sua implementação originaram o termo “<b>Governança colaborativa</b><b>”</b>, cuja estratégia passa pela organização e órgãos públicos de fóruns coletivos com tomada de decisões orientada pelo consenso e envolvimento de atores públicos e privados.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2372231" data-id="2372231" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1da35b5 elementor-widget elementor-widget-image" data-id="1da35b5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="476" height="326" src="wp-content/uploads/2022/05/Sem-titulo-4-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 476px) 100vw, 476px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-472ac04 elementor-widget elementor-widget-text-editor" data-id="472ac04" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>No caso das regiões de saúde brasileiras, são atores públicos das três esferas de governo que tomam decisões por consenso e que, no SUS, têm espaços distintos previstos para interlocução com a sociedade civil e o setor privado sobre políticas e sua implementação.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6c05103 elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c05103" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1823fa1" data-id="1823fa1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-924de7e elementor-widget elementor-widget-text-editor" data-id="924de7e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>O SUS também responde pela legitimação social do Sistema de Saúde e de seus resultados e, portanto, é ação de governança participativa (partes interessadas num processo de tomada de decisão coletiva que é formal, de consenso orientado e deliberativo, e que tem como objetivo fazer ou implementar políticas públicas) e colaborativa (a colaboração implica que as partes interessadas terão responsabilidade nos resultados das políticas).</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8d0a91c" data-id="8d0a91c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-33685d2 elementor-widget elementor-widget-image" data-id="33685d2" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="476" height="326" src="wp-content/uploads/2022/05/Sem-titulo-5-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 476px) 100vw, 476px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cc71cf5 elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cc71cf5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8179848" data-id="8179848" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-08a1c1e elementor-widget elementor-widget-text-editor" data-id="08a1c1e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Por isso, impõe a condição de que as partes interessadas devem ser diretamente envolvidas na tomada de decisões. E também ocorre em uma rede de políticas públicas de saúde (o foco da colaboração está na ordem pública ou de gestão pública).</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ce6e771 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce6e771" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b2663e3" data-id="b2663e3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3049c0b elementor-widget elementor-widget-image" data-id="3049c0b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="578" height="556" src="wp-content/uploads/2022/05/Sem-titulo-7-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 578px) 100vw, 578px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-61dc6f2" data-id="61dc6f2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-14b6661 elementor-widget elementor-widget-text-editor" data-id="14b6661" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>No <b>Fascículo</b> desta aula (está no AVA, em Material Complementar), você vai encontrar as <b>met</b><b>a</b><b>-análises de estudos sobre Governança colaborativa</b>. <b>L</b><b>eia, esse assunto é  importante!</b></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0c1f456" data-id="0c1f456" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0581a4e elementor-widget elementor-widget-image" data-id="0581a4e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="476" height="326" src="wp-content/uploads/2022/05/Sem-titulo-6-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 476px) 100vw, 476px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d0601dd elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d0601dd" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-63ed142 elementor-invisible" data-id="63ed142" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-a143d40 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a143d40" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-68a3831" data-id="68a3831" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d0b9af8 elementor-widget elementor-widget-text-editor" data-id="d0b9af8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Para consolidar a Governança do SUS, é necessário fortalecer a capacidade de participação de seus atores nos processos subjacentes à formulação, à decisão, à implementação e à avaliação de políticas públicas e programas governamentais.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e1cdfca" data-id="e1cdfca" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ce16a15 elementor-widget elementor-widget-image" data-id="ce16a15" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="516" src="wp-content/uploads/2022/05/Sem-titulo-8-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-408ea4c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="408ea4c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-41e444c" data-id="41e444c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a6af20c elementor-widget elementor-widget-image" data-id="a6af20c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="359" src="wp-content/uploads/2022/05/Sem-titulo-9-1-1024x460.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cdb7a4e" data-id="cdb7a4e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cfd4526 elementor-widget elementor-widget-text-editor" data-id="cfd4526" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Ë necessário analisar questões relacionadas à ação coletiva em um contexto marcado por um conjunto de atores distintos, com preferências heterogêneas, com recursos de poder distintos e assimetricamente distribuídos, e que precisam resolver seus problemas de coordenação, cooperação e comunicação.  Assim são os espaços de Governança do SUS.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8733556 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8733556" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c8bf033 elementor-invisible" data-id="c8bf033" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-11a6037 elementor-widget elementor-widget-text-editor" data-id="11a6037" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Essas ações coletivas são importantes para a percepção da capacidade de participar da governança e da identificação do que precisa ser fortalecido para que as funções fundamentais da gestão aconteçam no cenário de co-gestão intergovernamental. Ou seja, como fortalecer a capacidade governativa na formulação, na decisão e na execução das funções de planejar, organizar, integrar processos de trabalho das equipes, dirigir, coordenar,  informar e monitorar e avaliar.</p><p>A análise das estratégias e funções associadas à governança de redes de políticas públicas nos proporciona uma perspectiva importante dos pontos que os gestores devem levar em consideração ao participarem da governança do SUS.</p><p>Um primeiro ponto diz respeito ao ambiente. Segundo a literatura, existem características básicas do ambiente em que se insere uma rede que podem afetar o seu desempenho.</p><p><b>Vamos conhecer essas características  a seguir.</b></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cd1b0ea elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cd1b0ea" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ad25d84 elementor-invisible" data-id="ad25d84" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2fb9585 elementor-widget elementor-widget-text-editor" data-id="2fb9585" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Características básicas do ambiente em que se insere uma rede que podem afetar o seu desempenho:</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a01a168 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a01a168" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f852c19" data-id="f852c19" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6be87e4 elementor-widget elementor-widget-text-editor" data-id="6be87e4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>CONSENSO SOBRE OS OBJETIVOS: </b>Uma rede onde há consenso sobre os objetivos a serem perseguidos pelos seus membros tende a ser mais efetiva do que uma rede onde há, ainda, necessidade de definir e pactuar esses objetivos. Em uma rede com objetivos bem definidos e consensuais, os seus gestores dedicarão mais tempo à ativação da rede, ao enquadramento e à intermediação. Nas redes onde os objetivos não são claros, ou ainda não foram pactuados, seus gestores dedicarão mais tempo à facilitação, mediação e arbitragem.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-90d3a18 elementor-widget elementor-widget-text-editor" data-id="90d3a18" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>DISTRIBUIÇÃO DE RECURSOS: </b>As interdependências em uma rede ocorrem em função da distribuição de recursos entre seus membros. Os recursos incluem a distribuição da autoridade legal, recursos materiais, informação, expertise e experiência. A participação na rede deriva da quantidade de recursos disponíveis para cada ator. Se esses recursos são bem distribuídos entre uma vasta gama de atores, isso resultará em uma rede vasta. Se os recursos são concentrados em poucos atores, então a rede tende a ser mais restrita. Gestores experientes sabem como os recursos são distribuídos e mobilizam esses recursos no momento mais adequado para a geração dos resultados preconizados pelo grupo.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c295f13 elementor-widget elementor-widget-text-editor" data-id="c295f13" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>APOIO POLÍTICO</b>: O apoio político para atuação da rede e o apoio político obtido pelos membros da rede nas suas respectivas organizações são também fundamentais para o bom funcionamento da rede. Se os participantes de uma rede não possuem apoio das suas organizações ou da sociedade, então grande parte do esforço na gestão da rede será voltado para a obtenção desse apoio, muitas vezes em detrimento do exercício das outras funções.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ec2fa20 elementor-widget elementor-widget-text-editor" data-id="ec2fa20" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>RELACIONAMENTO</b>: Confiança e capital social são fundamentais para o bom funcionamento de uma rede. Se os membros de uma rede já interagiram no passado, conhecem bem um ao outro, então menos tempo precisa ser dedicado ao enquadramento e à intermediação do que em uma rede formada por estranhos ou pessoas que interagem pela primeira vez.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d5a0d04 elementor-widget elementor-widget-text-editor" data-id="d5a0d04" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>POLÍTICA PÚBLICA</b>: Se há um paradigma de políticas públicas compartilhado entre todos os atores e esse paradigma compreende metas reais, objetivos precisos, prioridades definidas e instrumentos pactuados, então a gestão da rede necessita gastar menos energia na formação de consenso sobre esses elementos fundamentais das políticas públicas. Por outro lado, se os membros da rede adotam diferentes paradigmas para orientar sua atuação, então o potencial de mobilização é reduzido e o risco de ocorrerem conflitos cresce bastante.</p><p>Para darmos continuidade aos nossos estudos, vamos conhecer, a seguir, <b>OS ESPAÇOS DE GOVERNANÇA E SEUS ATORES.</b></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-de30225 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="de30225" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d14458 elementor-invisible" data-id="2d14458" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-871e585 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="871e585" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-987ec14" data-id="987ec14" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b86cf22 elementor-widget elementor-widget-text-editor" data-id="b86cf22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>As redes organizacionais são coletividades que incorporam uma dimensão política. As interações entre organizações em rede podem ser entendidas como um campo de relacionamento entre os agentes sociais e as diversas representações produzidas pelos agentes da rede interorganizacional.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-00da782" data-id="00da782" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-33ae847 elementor-widget elementor-widget-image" data-id="33ae847" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="485" src="wp-content/uploads/2022/05/Sem-titulo-10-1-1024x621.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-c25e810 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c25e810" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d5aa2f9" data-id="d5aa2f9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-91b712f elementor-widget elementor-widget-image" data-id="91b712f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="470" src="wp-content/uploads/2022/05/Sem-titulo-11-1-1024x602.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6ae3a6a" data-id="6ae3a6a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5a14711 elementor-widget elementor-widget-text-editor" data-id="5a14711" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Podemos observar isso no espaço de poder da governança do SUS quando da substituição de gestores, por exemplo. “Ao iniciar a participação, o novo gestor irá encontrar outros que já estavam na gestão e já haviam iniciado a regionalização”.</p><p>Adquire-se o <i>habitus</i> da governança do SUS participativamente nos fóruns, nas instâncias de decisão e nos seus colegiados.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-64ee55e elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="64ee55e" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b7c976d elementor-invisible" data-id="b7c976d" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-3e147ad elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3e147ad" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1afb039" data-id="1afb039" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7848dae elementor-widget elementor-widget-text-editor" data-id="7848dae" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><i>Habitus</i> é o <i>modus </i><i>operandis</i> e a condição primeira de qualquer objetivação, exigindo de parte dos atores sociais um mínimo de controle e domínio de um código comum.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2a396a4 elementor-widget elementor-widget-text-editor" data-id="2a396a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>Mas qual é esse código nos espaços de governança do SUS?</b></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4513018 elementor-widget elementor-widget-text-editor" data-id="4513018" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>É pactuar os valores e o capital valorado. O <i>habitus</i> contribui para construir o campo como mundo significante, dotado de sentido, de valor, de estruturas de apoio e de processamento técnico das instâncias de governança, no qual vale a pena investir energia.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8268a19" data-id="8268a19" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7d97039 elementor-widget elementor-widget-image" data-id="7d97039" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="796" src="wp-content/uploads/2022/05/Sem-titulo-12-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6f20141 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6f20141" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e9a827a elementor-invisible" data-id="e9a827a" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1d7ddc7 elementor-widget elementor-widget-text-editor" data-id="1d7ddc7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>A Governança do SUS, portanto, pode ser compreendida como construção social reproduzida e alterada como resultado da ação dos atores que a constituem. A partir da análise de padrões de relações estabelecidos entre diferentes atores imbricados em contextos particulares, é possível transcender a visão atomizada dos homens, não se limitando a uma perspectiva subsocializada, baseada no pensamento econômico da ação racional e utilitária na busca do auto-interesse, e na visão sobre-socializada, que limita a ação às regras, normas e valores instituídos.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-255bf82" data-id="255bf82" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-47e2e68 elementor-widget elementor-widget-image" data-id="47e2e68" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="543" src="wp-content/uploads/2022/05/Sem-titulo-13-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5cc8fd4 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5cc8fd4" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a69347c elementor-invisible" data-id="a69347c" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-f60e1f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f60e1f2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6ebb417" data-id="6ebb417" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fff89f7 elementor-widget elementor-widget-image" data-id="fff89f7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="516" src="wp-content/uploads/2022/05/Sem-titulo-14-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d5bc526" data-id="d5bc526" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9db866a elementor-widget elementor-widget-text-editor" data-id="9db866a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>O comportamento econômico tem também outros objetivos, como a sociabilidade, a aprovação, o status e o poder. A inseparabilidade entre indivíduo e estrutura leva à conclusão de que a lógica de funcionamento dessas novas formas organizacionais (rede), calcadas na mútua dependência, acarreta relacionamentos de complementaridade e reciprocidade e gera contradições inerentes.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-bdf57d5 elementor-widget elementor-widget-text-editor" data-id="bdf57d5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>No Fascículo desta aula, que está no AVA, em Material Complementar, você vai encontrar mais  informações sobre a Governança no SUS. Vale a leitura!</b></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ea30097 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ea30097" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0293cb7 elementor-invisible" data-id="0293cb7" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-54bbdd9 elementor-widget elementor-widget-text-editor" data-id="54bbdd9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>A governança da política de saúde é, portanto, dependente de elementos fundamentais na realidade do SUS: a heterogeneidade e interdependência entre atores; a existência de um subsistema de política pública; e a presença de uma estrutura de governança. Todo referencial teórico utilizado por várias organizações (TCU, Banco Mundial, etc.) diz respeito a concepções inadequadas à análise do SUS, onde constitucionalmente existem responsabilidades comuns entre entes federados que estão em instituições distintas, com culturas e processos de tomada de decisão distintos, são interdependentes entre si, e possuem um sistema de saúde com estrutura de governança interfederativa criada por lei.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-972d878" data-id="972d878" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-06fb745 elementor-widget elementor-widget-image" data-id="06fb745" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="727" height="635" src="wp-content/uploads/2022/05/Sem-titulo-15-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 727px) 100vw, 727px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-520a856 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="520a856" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6edd339 elementor-invisible" data-id="6edd339" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-86e7bce elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="86e7bce" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-39c07da" data-id="39c07da" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c4fdd84 elementor-widget elementor-widget-text-editor" data-id="c4fdd84" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Embora exista alguma literatura sobre gestão intergovernamental, as pesquisas nessa área não ganharam lugar para além dos arranjos organizacionais de operação executiva. No caso da saúde, debate-se muito a governança executiva por meio de consórcios públicos e fundações estatais, entre outras formas<b>. </b> </p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d871f25" data-id="d871f25" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b01ac15 elementor-widget elementor-widget-image" data-id="b01ac15" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="364" src="wp-content/uploads/2022/05/Sem-titulo-16-1-1024x466.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-ec78272 elementor-widget elementor-widget-text-editor" data-id="ec78272" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Para elevar ainda mais sua aprendizagem, leia no Fascículo desta aula (que está no AVA, em Material Complementar) mais  informações sobre a Governança no SUS e ainda, a <b>História da gestão compartilh</b><b>ada e o modelo de Governança</b><b> do SUS. </b></p><p><b>Vale a leitura! </b></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-558fc94 elementor-widget elementor-widget-text-editor" data-id="558fc94" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Vamos continuar nossos estudos,  vendo, a seguir, o <b>Fortalecimento</b> <b>da capacidade governativa na RAS.</b></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e3be4ed elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e3be4ed" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-944b170 elementor-invisible" data-id="944b170" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2a9b27a elementor-widget elementor-widget-image" data-id="2a9b27a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="152" src="wp-content/uploads/2022/05/Sem-titulo-17-1-1024x195.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-1b9f449 elementor-widget elementor-widget-text-editor" data-id="1b9f449" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Na perspectiva de garantia da integralidade do cuidado em saúde, os serviços hospitalares são estruturas gerais ou especializadas que se responsabilizam por pelo menos 20% da demanda de seu território de abrangência.</p><p>Nenhum desses serviços deve ficar fora desta rede, que como já vimos, tem espaços organizados para uma governança em rede. Falamos da governança regional, que cada vez mais se aprimora na missão de formular, decidir e executar ações para a Rede Regionalizada de Atenção à Saúde – RRAS.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9da9f2e elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9da9f2e" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a029372 elementor-invisible" data-id="a029372" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-4ef9737 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4ef9737" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a664b6" data-id="3a664b6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-30b6f74 elementor-widget elementor-widget-text-editor" data-id="30b6f74" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Para melhor compreensão, veja no gráfico a demonstração da  APS/AB como uma estratégia de estruturação do SUS, que se responsabiliza pelo território, garante acesso universal e resolutivo e se integra com as especialidades e com os hospitais (tanto gerais como especializados) na busca pela garantia da integralidade, utilizando-se de sistemas de logística e de governança, com pactuações formuladoras sobre a realidade regional que incluem o aprimoramento das decisões sobre a capacidade de governo em cada ente e na região.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-44750e0" data-id="44750e0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b26df1c elementor-widget elementor-widget-image" data-id="b26df1c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1928" height="1762" src="wp-content/uploads/2022/05/Sem-titulo-18-1.png" class="attachment-full size-full" alt="" loading="lazy" wp-content/ sizes="(max-width: 1928px) 100vw, 1928px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8bdd592 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8bdd592" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-38506ef elementor-invisible" data-id="38506ef" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-3c2e0e4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c2e0e4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7e8d03e" data-id="7e8d03e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1a8f303 elementor-widget elementor-widget-image" data-id="1a8f303" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="635" src="wp-content/uploads/2022/05/Sem-titulo-19-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-aec1f64" data-id="aec1f64" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b509bfc elementor-widget elementor-widget-text-editor" data-id="b509bfc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>O planejar tem que ser integrado a um espaço de governança onde os entes compartilham responsabilidades e pactuam federativamente suas ações.</p><p>A governança federativa regionalizada, que se expressa ora na Macrorregião, ora na região da CIR, faz o gestor municipal participar destes espaços para que a articulação, a integração do planejamento, a pactuação, a execução e o acompanhamento de suas programações regionalizadas de fato atendam às necessidades de saúde de seus munícipes.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f032513 elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f032513" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bd9515c" data-id="bd9515c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b2025e4 elementor-widget elementor-widget-text-editor" data-id="b2025e4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>A história das práticas de governança no SUS guarda estreita relação com a história da Reforma Sanitária brasileira, que apresenta um paradoxo ao não ter sido implantada em seus eixos &#8211; direito à saúde, reforma do sistema de saúde e financiamento do setor saúde &#8211; mas, ao mesmo tempo, apresenta notáveis resultados em indicadores e condições de saúde da população.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-16a9978" data-id="16a9978" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-034bed2 elementor-widget elementor-widget-image" data-id="034bed2" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="366" height="378" src="wp-content/uploads/2022/05/Sem-titulo-20-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 366px) 100vw, 366px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-652168e elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="652168e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0ad9e34" data-id="0ad9e34" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-21e908a elementor-widget elementor-widget-text-editor" data-id="21e908a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>A inclusão dos entes federados, empoderados com a CF 88, nos espaços de decisão das políticas públicas da saúde brasileira apresenta, ao longo dessa história, ganhos importantes na capacidade de governança. O capital social acumulado em mais de 30 anos tem potência e solidez para conferir direcionalidade às políticas por meio de suas decisões, construir processos dinâmicos de responsabilização e partilhamento de recursos, e atuar na sustentabilidade das decisões, mesmo que haja diferentes realidades nas regiões de saúde instituídas. A unicidade de valores é garantida pela governança instituída e realizada de modo colaborativo.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b2ee76e" data-id="b2ee76e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d8365ab elementor-widget elementor-widget-image" data-id="d8365ab" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="366" height="378" src="wp-content/uploads/2022/05/Sem-titulo-21-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 366px) 100vw, 366px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-fc1cacc elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fc1cacc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2baa673" data-id="2baa673" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-666566e elementor-widget elementor-widget-text-editor" data-id="666566e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Ao longo dos 30 anos, e cada vez mais, os desafios à gestão do SUS se avolumam e assumem maior complexidade. A gestão do SUS, como parte do Estado, depara-se cada vez mais com a necessidade de superar os desafios do mundo atual e efetivamente dar resposta à necessidade de universalizar o acesso a ações e serviços de saúde e à integralidade do cuidado. Lidar com esse desafio é promover o desenvolvimento sustentável do sistema de saúde nos diferentes espaços &#8211; local, municipal, microrregional, macrorregional, interestadual, nacional, transfronteiriço e global.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-db27481" data-id="db27481" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ec5f7a6 elementor-widget elementor-widget-image" data-id="ec5f7a6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="366" height="378" src="wp-content/uploads/2022/05/Sem-titulo-22-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 366px) 100vw, 366px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4b5d77c elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4b5d77c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-93f60ce" data-id="93f60ce" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6b4135f elementor-widget elementor-widget-text-editor" data-id="6b4135f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Imersos nesse contexto, não somente o SUS, mas o conjunto das organizações públicas do Estado como um todo, vêm alterando a sua maneira de atuar, passando por reformas administrativas no intuito de ampliar sua legitimidade. Diversos estudos  e pesquisas recentes das Ciências da Administração, da Economia, da Ciência Política e de outras disciplinas vêm refletindo sobre as transformações enfrentadas no âmbito das teorias da Administração Pública, passando pela Administração Burocrática, Nova Administração Pública e uma abordagem mais recente denominada de Governança Pública.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c8dae43" data-id="c8dae43" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-588dc7e elementor-widget elementor-widget-image" data-id="588dc7e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="366" height="378" src="wp-content/uploads/2022/05/Sem-titulo-23-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 366px) 100vw, 366px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-82365e5 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="82365e5" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8e0c479 elementor-invisible" data-id="8e0c479" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-b970b48 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b970b48" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e722dac" data-id="e722dac" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e8919bc elementor-widget elementor-widget-text-editor" data-id="e8919bc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Fortalecer a capacidade de Governança significa fortalecer a capacidade governativa de seus participantes, sua capacidade de formulação, de decisão e de execução do pactuado.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-9e29c95 elementor-widget elementor-widget-text-editor" data-id="9e29c95" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Estamos finalizando nossa última aula do Curso Ser Gestor SUS, mas antes, gostaríamos de parabenizá-lo(a) por sua garra dentro dessa trajetória de aprendizado e de aperfeiçoamento  profissional.</p><p>São profissionais como você de que o SUS precisa para ser ainda melhor!</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-99c9e8f" data-id="99c9e8f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-24c64cf elementor-widget elementor-widget-image" data-id="24c64cf" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="672" height="520" src="wp-content/uploads/2022/05/Sem-titulo-24-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 672px) 100vw, 672px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-665b5cc elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="665b5cc" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-57fe59b elementor-invisible" data-id="57fe59b" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-4d4f644 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4d4f644" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fc647ae" data-id="fc647ae" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8802e50 elementor-widget elementor-widget-text-editor" data-id="8802e50" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>Parabéns, você terminou a última aula do curso Ser Gestor SUS!</b></p><p>Nesta aula, você aprendeu sobre a dimensão política da governança na saúde, levando em consideração não só os aspectos estruturais e objetivos, mas também a dimensão subjetiva que permeia as relações entre os agentes públicos nos fóruns de tomada de decisão.</p><p>Temos certeza de que as informações ensinadas durante todo curso despertaram em você uma consciência capaz de ampliar o horizonte, revelando e promovendo reflexões e ações primordiais para seu dia a dia profissional.</p><p>Desejamos sucesso na sua jornada!</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-04c10b5" data-id="04c10b5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fe7f9d1 elementor-widget elementor-widget-image" data-id="fe7f9d1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="366" height="326" src="wp-content/uploads/2022/05/Sem-titulo-25-1.png" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 366px) 100vw, 366px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-25d8158 elementor-widget elementor-widget-text-editor" data-id="25d8158" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>E para não perder o costume: Leia o Fascículo desta aula, que está no AVA, em Material Complementar, onde você vai encontrar novos  conteúdos  para incrementar seus estudos!  Ah, e assistia à teleaula!</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0195080 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0195080" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3c2cf0d elementor-invisible" data-id="3c2cf0d" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-326dba8 elementor-widget elementor-widget-heading" data-id="326dba8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Ficha Técnica
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6624d76 elementor-widget elementor-widget-text-editor" data-id="6624d76" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>Curadoria Conasems: </b>Cristiane Martins Pantaleão, Denise Rinehart, Marcos da Silveira Franco, Nilo Bretas Junior.</p><p><b>Conteudista CONASEMS: </b>Nilo Brêtas Júnior.</p><p><b>Gestão Educacional CONASEMS:</b>  Cristina Fatima dos Santos Crespo, Rubensmidt Ramos Riani, Valdívia Marçal.</p><p> <b> Curadoria de Conteúdos &#8211; Ministério da Saúde: </b>Teresa Maria Passarella.</p><p><b>Coordenação Administrativa SUPREMA</b><b>: </b>Rodrigo Coelho de Almeida.</p><p><b>Curadoria de Conteúdos &#8211; Faculdade SUPREMA: </b>Claudileia Paiva, Célia Regina Machado Saldanha, Rodrigo Almeida, Rogério Pinheiro Nunes, Simone Ferreira de Assis.</p><p><b>Gestora Educacional: </b>Simone Ferreira de Assis.</p><p><b>Apoio Técnico: </b>Célia Regina Machado Saldanha, Rodrigo Coelho Almeida, Rogério Pinheiro Nunes. </p><p><b>Designer Instrucional: </b>Carla Cristini Justino de Oliveira, Kenya Maciel. </p><p><b>Revisão Textual: </b>Bianca Maciente Colvara</p><p><b>Web Desenvolvedor: </b>Aidan Wenceslau Bruno.</p><p><b>Coordenação Executiva Geral: </b>Conexões Consultoria em Saúde Ltda.</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-fcbae7f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fcbae7f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0f44e2e" data-id="0f44e2e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2b824d6 elementor-widget elementor-widget-image" data-id="2b824d6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="89" height="76" src="wp-content/uploads/2021/08/WhatsApp-Image-2021-08-20-at-12.21.59.jpg" class="attachment-full size-full" alt="" loading="lazy" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3a447ce" data-id="3a447ce" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-80e2058 elementor-widget elementor-widget-image" data-id="80e2058" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="512" height="311" src="wp-content/uploads/2021/08/unnamed-2.png" class="attachment-full size-full" alt="" loading="lazy" wp-content/ sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-70e2a82" data-id="70e2a82" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b94bf9f elementor-widget elementor-widget-image" data-id="b94bf9f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="181" height="80" src="wp-content/uploads/2021/08/Prancheta-13-1.png" class="attachment-full size-full" alt="" loading="lazy" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1020962 elementor-section-stretched elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1020962" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-240e271 elementor-invisible" data-id="240e271" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;slideInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-3c0ebc1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c0ebc1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a3b0473" data-id="a3b0473" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-586b570 elementor-widget elementor-widget-text-editor" data-id="586b570" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><b>Banco de Imagens </b><b>Freepik</b></p><p>https://www.freepik.com</p><p><b>Banco de Ícones</b></p><p>https://www.flaticon.com/br</p><p><b>Banco de Imagens CONASEMS</b></p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5669c95" data-id="5669c95" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-82b53a8 elementor-widget elementor-widget-image" data-id="82b53a8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="512" height="341" src="wp-content/uploads/2022/02/unnamed-1.jpg" class="attachment-large size-large" alt="" loading="lazy" wp-content/ sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		<link rel='stylesheet' id='e-animations-css'  href='wp-content/plugins/elementor/assets/lib/animations/animations.min3d36.css?ver=3.3.1' type='text/css' media='all' />
+<script type='text/javascript' id='apollo13framework-plugins-js-extra'>
+/* <![CDATA[ */
+var ApolloParams = {"ajaxurl":"http:\/\/negociopensado.com.br\/gestorsus\/wp-admin\/admin-ajax.php","site_url":"http:\/\/negociopensado.com.br\/gestorsus\/","defimgurl":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/themes\/rife-free\/images\/holders\/photo.png","options_name":"apollo13_option_rife","load_more":"Carregar mais","loading_items":"Carregando os pr\u00f3ximos itens","anchors_in_bar":"1","scroll_to_anchor":"1","writing_effect_mobile":"","writing_effect_speed":"10","hide_content_under_header":"off","default_header_variant":"normal","header_sticky_top_bar":"","header_color_variants":"sticky","show_header_at":"0","header_normal_social_colors":"color|black_hover||_hover","header_light_social_colors":"|_hover||_hover","header_dark_social_colors":"|_hover||_hover","header_sticky_social_colors":"semi-transparent|color_hover||_hover","close_mobile_menu_on_click":"1","menu_overlay_on_click":"","allow_mobile_menu":"","submenu_opener":"fa-angle-down","submenu_closer":"fa-angle-up","submenu_third_lvl_opener":"fa-angle-right","submenu_third_lvl_closer":"fa-angle-left","posts_layout_mode":"packery","products_brick_margin":"0","products_layout_mode":"packery","albums_list_layout_mode":"packery","album_bricks_thumb_video":"","works_list_layout_mode":"packery","work_bricks_thumb_video":"","people_list_layout_mode":"fitRows","lg_lightbox_share":"1","lg_lightbox_controls":"1","lg_lightbox_download":"","lg_lightbox_counter":"1","lg_lightbox_thumbnail":"1","lg_lightbox_show_thumbs":"","lg_lightbox_autoplay":"1","lg_lightbox_autoplay_open":"","lg_lightbox_progressbar":"1","lg_lightbox_full_screen":"1","lg_lightbox_zoom":"1","lg_lightbox_mode":"lg-slide","lg_lightbox_speed":"600","lg_lightbox_preload":"1","lg_lightbox_hide_delay":"2000","lg_lightbox_autoplay_pause":"5000","lightbox_single_post":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/helpers.min18f6.js?ver=2.4.12' id='apollo13framework-plugins-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/jquery.fitvids.min4963.js?ver=1.1' id='jquery-fitvids-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/jquery.fittext.min62ea.js?ver=1.2' id='jquery-fittext-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/jquery.slides.min459e.js?ver=3.0.4' id='jquery-slides-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/jquery.sticky-kit.mincfa9.js?ver=1.1.2' id='jquery-sticky-kit-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/jquery.mousewheel.mina9d5.js?ver=3.1.13' id='jquery-mousewheel-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/typed.min8daf.js?ver=1.1.4' id='jquery-typed-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/isotope.pkgd.min7c45.js?ver=3.0.6' id='apollo13framework-isotope-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/light-gallery/js/lightgallery-all.min8162.js?ver=1.9.0' id='jquery-lightgallery-js'></script>
+<script type='text/javascript' src='wp-content/themes/rife-free/js/script.min18f6.js?ver=2.4.12' id='apollo13framework-scripts-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min3d36.js?ver=3.3.1' id='elementor-pro-webpack-runtime-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/webpack.runtime.min3d36.js?ver=3.3.1' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules.min3d36.js?ver=3.3.1' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/negociopensado.com.br\/gestorsus\/wp-admin\/admin-ajax.php","nonce":"e4b29cdf90","urls":{"assets":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"N\u00e3o foram encontrados cabe\u00e7alhos nesta p\u00e1gina."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/frontend.min3d36.js?ver=3.3.1' id='elementor-pro-frontend-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/core.min0028.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/share-link/share-link.min3d36.js?ver=3.3.1' id='share-link-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-extra'>
+/* <![CDATA[ */
+var PaModulesSettings = {"equalHeight_url":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/premium-addons-for-elementor\/assets\/frontend\/min-js\/premium-eq-height.min.js"};
+var papro_addons = {"url":"http:\/\/negociopensado.com.br\/gestorsus\/wp-admin\/admin-ajax.php","particles_url":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/premium-addons-pro\/assets\/frontend\/min-js\/particles.min.js","kenburns_url":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/premium-addons-pro\/assets\/frontend\/min-js\/cycle.min.js","gradient_url":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/premium-addons-pro\/assets\/frontend\/min-js\/premium-gradient.min.js","parallax_url":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/premium-addons-pro\/assets\/frontend\/min-js\/premium-parallax.min.js","lottie_url":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/premium-addons-for-elementor\/assets\/frontend\/min-js\/lottie.min.js"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"direction":"max","is_enabled":true,"default_value":767},"mobile_extra":{"label":"Dispositivo m\u00f3vel extra","value":880,"direction":"max","is_enabled":false,"default_value":880},"tablet":{"label":"Tablet","value":1024,"direction":"max","is_enabled":true,"default_value":1024},"tablet_extra":{"label":"Tablet extra","value":1365,"direction":"max","is_enabled":false,"default_value":1365},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false,"default_value":1620},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false,"default_value":2400}}},"version":"3.3.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true,"form-submissions":true,"video-playlist":true},"urls":{"assets":"http:\/\/negociopensado.com.br\/gestorsus\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":23212,"title":"GestorSus%20%E2%80%93%20Aula%2031%20%E2%80%93%2001%20%E2%80%93%20Gestor%20Sus","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.min3d36.js?ver=3.3.1' id='elementor-frontend-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-after'>
+window.scopes_array = {};
+                window.backend = 0;
+                jQuery( window ).on( "elementor/frontend/init", function() {
+                    elementorFrontend.hooks.addAction( "frontend/element_ready/section", function( $scope, $ ){
+                        if ( "undefined" == typeof $scope ) {
+                                return;
+                        }
+                        if ( $scope.hasClass( "premium-equal-height-yes" ) ) {
+                            var id = $scope.data("id");
+                            window.scopes_array[ id ] = $scope;
+                        }
+                        if(elementorFrontend.isEditMode()){
+                            var url = PaModulesSettings.equalHeight_url;
+                            jQuery.cachedAssets = function( url, options ) {
+                                // Allow user to set any option except for dataType, cache, and url.
+                                options = jQuery.extend( options || {}, {
+                                    dataType: "script",
+                                    cache: true,
+                                    url: url
+                                });
+                                // Return the jqXHR object so we can chain callbacks.
+                                return jQuery.ajax( options );
+                            };
+                            jQuery.cachedAssets( url );
+                            window.backend = 1;
+                        }
+                    });
+                });
+                jQuery(document).ready(function(){
+                    if ( jQuery.find( ".premium-equal-height-yes" ).length < 1 ) {
+                        return;
+                    }
+
+                    var url = PaModulesSettings.equalHeight_url;
+
+                    jQuery.cachedAssets = function( url, options ) {
+                        // Allow user to set any option except for dataType, cache, and url.
+                        options = jQuery.extend( options || {}, {
+                            dataType: "script",
+                            cache: true,
+                            url: url
+                        });
+
+                        // Return the jqXHR object so we can chain callbacks.
+                        return jQuery.ajax( options );
+                    };
+                    jQuery.cachedAssets( url );
+                });	
+window.scopes_array = {};
+                window.backend = 0;
+                jQuery( window ).on( "elementor/frontend/init", function() {
+                    elementorFrontend.hooks.addAction( "frontend/element_ready/section", function( $scope, $ ){
+                        if ( "undefined" == typeof $scope ) {
+                                return;
+                        }
+                        if ( $scope.hasClass( "premium-parallax-yes" ) ) {
+                            var id = $scope.data("id");
+                            window.scopes_array[ id ] = $scope;
+                        }
+                        if(elementorFrontend.isEditMode()){		
+                            var url = papro_addons.parallax_url;
+                            jQuery.cachedAssets = function( url, options ) {
+                                // Allow user to set any option except for dataType, cache, and url.
+                                options = jQuery.extend( options || {}, {
+                                    dataType: "script",
+                                    cache: true,
+                                    url: url
+                                });
+                                // Return the jqXHR object so we can chain callbacks.
+                                return jQuery.ajax( options );
+                            };
+                            jQuery.cachedAssets( url );
+                            window.backend = 1;
+                        }
+                    });
+                });
+                jQuery(document).ready(function(){
+                    if ( jQuery.find( ".premium-parallax-yes" ).length < 1 ) {
+                        return;
+                    }
+                    
+                    var url = papro_addons.parallax_url;
+                    
+                    jQuery.cachedAssets = function( url, options ) {
+                        // Allow user to set any option except for dataType, cache, and url.
+                        options = jQuery.extend( options || {}, {
+                            dataType: "script",
+                            cache: true,
+                            url: url
+                        });
+                        
+                        // Return the jqXHR object so we can chain callbacks.
+                        return jQuery.ajax( options );
+                    };
+                    jQuery.cachedAssets( url );
+                });	
+window.scopes_array = {};
+                window.backend = 0;
+                jQuery( window ).on( "elementor/frontend/init", function() {
+                    elementorFrontend.hooks.addAction( "frontend/element_ready/section", function( $scope, $ ){
+                        if ( "undefined" == typeof $scope ) {
+                                return;
+                        }
+                        if ( $scope.hasClass( "premium-particles-yes" ) ) {
+                            var id = $scope.data("id");
+                            window.scopes_array[ id ] = $scope;
+                        }
+                        if(elementorFrontend.isEditMode()){		
+                            var url = papro_addons.particles_url;
+                            jQuery.cachedAssets = function( url, options ) {
+                                // Allow user to set any option except for dataType, cache, and url.
+                                options = jQuery.extend( options || {}, {
+                                    dataType: "script",
+                                    cache: true,
+                                    url: url
+                                });
+                                // Return the jqXHR object so we can chain callbacks.
+                                return jQuery.ajax( options );
+                            };
+                            jQuery.cachedAssets( url );
+                            window.backend = 1;
+                        }
+                    });
+                });
+                jQuery(document).ready(function(){
+                    if ( jQuery.find( ".premium-particles-yes" ).length < 1 ) {
+                    
+                        return;
+                    }
+                    var url = papro_addons.particles_url;
+                    
+                    jQuery.cachedAssets = function( url, options ) {
+                        // Allow user to set any option except for dataType, cache, and url.
+                        options = jQuery.extend( options || {}, {
+                            dataType: "script",
+                            cache: true,
+                            url: url
+                        });
+                        
+                        // Return the jqXHR object so we can chain callbacks.
+                        return jQuery.ajax( options );
+                    };
+                    jQuery.cachedAssets( url );
+                });	
+window.scopes_array = {};
+                window.backend = 0;
+                jQuery( window ).on( "elementor/frontend/init", function() {
+                    elementorFrontend.hooks.addAction( "frontend/element_ready/section", function( $scope, $ ){
+                        if ( "undefined" == typeof $scope ) {
+                                return;
+                        }
+                        if ( $scope.hasClass( "premium-gradient-yes" ) ) {
+                            var id = $scope.data("id");
+                            window.scopes_array[ id ] = $scope;
+                        }
+                        if(elementorFrontend.isEditMode()){		
+                            var url = papro_addons.gradient_url;
+                            jQuery.cachedAssets = function( url, options ) {
+                                // Allow user to set any option except for dataType, cache, and url.
+                                options = jQuery.extend( options || {}, {
+                                    dataType: "script",
+                                    cache: true,
+                                    url: url
+                                });
+                                // Return the jqXHR object so we can chain callbacks.
+                                return jQuery.ajax( options );
+                            };
+                            jQuery.cachedAssets( url );
+                            window.backend = 1;
+                        }
+                    });
+                });
+                jQuery(document).ready(function(){
+                    if ( jQuery.find( ".premium-gradient-yes" ).length < 1 ) {
+                        return;
+                    }
+                    
+                    var url = papro_addons.gradient_url;
+                    
+                    jQuery.cachedAssets = function( url, options ) {
+                        // Allow user to set any option except for dataType, cache, and url.
+                        options = jQuery.extend( options || {}, {
+                            dataType: "script",
+                            cache: true,
+                            url: url
+                        });
+                        
+                        // Return the jqXHR object so we can chain callbacks.
+                        return jQuery.ajax( options );
+                    };
+                    jQuery.cachedAssets( url );
+                });	
+window.scopes_array = {};
+                window.backend = 0;
+                jQuery( window ).on( "elementor/frontend/init", function() {
+                    elementorFrontend.hooks.addAction( "frontend/element_ready/section", function( $scope, $ ){
+                        if ( "undefined" == typeof $scope ) {
+                                return;
+                        }
+                        if ( $scope.hasClass( "premium-kenburns-yes" ) ) {
+                            var id = $scope.data("id");
+                            window.scopes_array[ id ] = $scope;
+                        }
+                    });
+                });
+                jQuery(document).ready(function(){
+                    if ( jQuery.find( ".premium-kenburns-yes" ).length < 1 ) {
+                        return;
+                    }
+                    
+                    var url = papro_addons.kenburns_url;
+                    
+                    jQuery.cachedAssets = function( url, options ) {
+                        // Allow user to set any option except for dataType, cache, and url.
+                        options = jQuery.extend( options || {}, {
+                            dataType: "script",
+                            cache: true,
+                            url: url
+                        });
+                        
+                        // Return the jqXHR object so we can chain callbacks.
+                        return jQuery.ajax( options );
+                    };
+                    jQuery.cachedAssets( url );
+                });	
+window.scopes_array = {};
+                window.backend = 0;
+                jQuery( window ).on( "elementor/frontend/init", function() {
+                    
+                    elementorFrontend.hooks.addAction( "frontend/element_ready/section", function( $scope, $ ){
+                        if ( "undefined" == typeof $scope ) {
+                                return;
+                        }
+                        if ( $scope.hasClass( "premium-lottie-yes" ) ) {
+                            var id = $scope.data("id");
+                            window.scopes_array[ id ] = $scope;
+                        }
+                        if(elementorFrontend.isEditMode()){
+                            
+                            var url = papro_addons.lottie_url;
+                            jQuery.cachedAssets = function( url, options ) {
+                                // Allow user to set any option except for dataType, cache, and url.
+                                options = jQuery.extend( options || {}, {
+                                    dataType: "script",
+                                    cache: true,
+                                    url: url
+                                });
+                                // Return the jqXHR object so we can chain callbacks.
+                                return jQuery.ajax( options );
+                            };
+                            jQuery.cachedAssets( url );
+                            window.backend = 1;
+                        }
+                    });
+                });
+                jQuery(document).ready(function(){
+                    if ( jQuery.find( ".premium-lottie-yes" ).length < 1 ) {
+                        return;
+                    }
+                    var url = papro_addons.lottie_url;
+                    
+                    jQuery.cachedAssets = function( url, options ) {
+                        // Allow user to set any option except for dataType, cache, and url.
+                        options = jQuery.extend( options || {}, {
+                            dataType: "script",
+                            cache: true,
+                            url: url
+                        });
+                        
+                        // Return the jqXHR object so we can chain callbacks.
+                        return jQuery.ajax( options );
+                    };
+                    jQuery.cachedAssets( url );
+                });	
+</script>
+<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min3d36.js?ver=3.3.1' id='pro-preloaded-elements-handlers-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.min3d36.js?ver=3.3.1' id='preloaded-modules-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min3d36.js?ver=3.3.1' id='e-sticky-js'></script>
+	</body>
+
+<!-- Mirrored from negociopensado.com.br/gestorsus/gestorsus-aula-31-01/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 May 2022 13:51:03 GMT -->
+</html>
